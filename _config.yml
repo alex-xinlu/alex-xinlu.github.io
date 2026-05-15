@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Xin Lu的技术博客
+title: Xin Lu 的博客
 email: xinlu.nlp@gmail.com
 description: 记录 AI 工程实践、技术杂记、读书思考和人生感悟。
 baseurl: "" # the subpath of your site, e.g. /blog
