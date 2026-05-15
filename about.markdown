@@ -1,18 +1,33 @@
 ---
 layout: page
-title: About
+title: 关于
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+你好，我是Xin Lu，现在主要做大模型应用架构方向的工作。
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+过去几年里，我一直在 NLP 和 AI 应用一线做事，经历过内容理解、知识抽取、推荐与问答，也持续在做 RAG、Workflow、Prompt、评测优化和系统落地。相比只聊概念，我更关心一个 AI 系统怎么真正跑起来，效果为什么会好，出了问题又该怎么拆开看。
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+我做过的事情，大致包括这些方向：
 
+1. 大模型应用架构设计与工程化落地
+2. RAG、多轮对话、知识库和检索链路优化
+3. NL2SQL、合同抽取、合同审查等政企场景应用
+4. 内容结构化、质量评估、问答与推荐系统优化
+5. AI 评测体系设计、实验分析和迭代优化
 
-[jekyll-organization]: https://github.com/jekyll
+目前我的工作重点是把数据、模型、应用、评测和系统串成一个能持续迭代的闭环。很多文章也会围绕这个视角展开：不只是分享方案，更会写清楚问题现象、判断依据、排查路径，以及最后为什么这样改。
+
+这个博客主要会写：
+
+1. 大模型应用开发中的实现细节和效果优化
+2. RAG、Agent、Workflow 相关的工程实践
+3. 真实项目里的排障过程和技术复盘
+4. 一些技术杂记、读书思考和人生感悟
+
+如果你也在做 AI 应用、企业知识系统，或者对复杂问题排查这件事本身感兴趣，这里应该会有一些内容对你有帮助。
+
+你也可以在这些地方找到我：
+
+- GitHub：[alex-xinlu](https://github.com/alex-xinlu)
+- CSDN：[alex-xinlu](https://blog.csdn.net/u010280923)
