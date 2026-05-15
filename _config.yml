@@ -20,7 +20,7 @@
 
 title: Xin Lu的技术博客
 email: xinlu.nlp@gmail.com
-description: 专注大模型应用架构、RAG、AI 工程化与复杂问题排查，记录真实项目中的实现细节、效果优化和技术复盘。
+description: 记录 AI 工程实践、技术杂记、读书思考和人生感悟。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://alex-xinlu.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
