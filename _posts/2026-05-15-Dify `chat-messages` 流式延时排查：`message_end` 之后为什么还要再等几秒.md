@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Dify `chat-messages` 流式延时排查：`message_end` 之后为什么还要再等几秒"
+date: 2026-05-15
+categories: [AI, Dify]
+tags: [Dify, SSE, Streaming, Troubleshooting]
+---
+
 最近在本地部署的 Dify 上排查了一个比较绕的流式响应问题。
 
 先说结论：这不是 SSE 本身没结束，而是 `/v1/chat-messages` 在新会话首次提问时，默认会触发会话标题生成。这个标题生成任务本身也会调用一次大模型，所以即使主回答已经结束、最后一个流式数据片段里的 `event` 已经是 `message_end`，连接也可能还要再等几秒才真正关闭。
@@ -131,4 +139,3 @@
 - 用 Coding Agent 排查问题时，提问方式很重要。围着单个现象追问，往往只能得到局部解释；改成“对比两条链路的实现差异”，更容易逼近根因。
 
 如果你也遇到类似现象：`message_end` 已经到了，但 SSE 连接还要再拖一段时间，尤其只发生在新会话第一次提问，那可以优先检查一下 `auto_generate_name` 是否被默认开启了。
-

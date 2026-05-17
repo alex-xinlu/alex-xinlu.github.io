@@ -1,10 +1,9 @@
 ---
-layout: page
-title: 关于
-permalink: /about/
+icon: fas fa-info-circle
+order: 4
 ---
 
-你好，我是Xin Lu，现在主要做大模型应用架构方向的工作。
+你好，我是 Xin Lu，现在主要做大模型应用架构方向的工作。
 
 过去几年里，我一直在 NLP 和 AI 应用一线做事，经历过内容理解、知识抽取、推荐与问答，也持续在做 RAG、Workflow、Prompt、评测优化和系统落地。相比只聊概念，我更关心一个 AI 系统怎么真正跑起来，效果为什么会好，出了问题又该怎么拆开看。
 
@@ -29,5 +28,5 @@ permalink: /about/
 
 你也可以在这些地方找到我：
 
-- GitHub：[alex-xinlu](https://github.com/alex-xinlu)
-- CSDN：[alex-xinlu](https://blog.csdn.net/u010280923)
+- GitHub: [alex-xinlu](https://github.com/alex-xinlu)
+- CSDN: [alex-xinlu](https://blog.csdn.net/u010280923)

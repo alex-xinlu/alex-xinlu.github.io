@@ -2,7 +2,7 @@
 layout: post
 title: "Windows 上用 GitHub Pages + Jekyll 搭建个人博客完整教程"
 date: 2026-05-15
-categories: jekyll github tutorial
+categories: [Jekyll, GitHub Pages]
 tags: [Windows, GitHub Pages, Jekyll, 博客]
 ---
 
