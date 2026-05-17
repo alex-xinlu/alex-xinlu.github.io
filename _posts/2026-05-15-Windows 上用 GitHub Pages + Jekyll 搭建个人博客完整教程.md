@@ -4,6 +4,9 @@ title: "Windows 上用 GitHub Pages + Jekyll 搭建个人博客完整教程"
 date: 2026-05-15
 categories: [Jekyll, GitHub Pages]
 tags: [Windows, GitHub Pages, Jekyll, 博客]
+image:
+  path: /assets/images/2026-05-15/cover-github_pages.png
+  alt: GitHub Pages 与 Jekyll 搭建博客教程封面
 ---
 
 # 目录
