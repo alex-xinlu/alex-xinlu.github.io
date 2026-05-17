@@ -10,6 +10,7 @@ description: >-
 
 url: "https://alex-xinlu.github.io"
 baseurl: ""
+avatar: "/assets/images/avatar.png"
 
 github:
   username: alex-xinlu
