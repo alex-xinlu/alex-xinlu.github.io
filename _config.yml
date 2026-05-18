@@ -24,6 +24,19 @@ social:
 
 toc: true
 
+comments:
+  provider: giscus
+  giscus:
+    repo: alex-xinlu/alex-xinlu.github.io
+    repo_id: "R_kgDOSd9XuQ"
+    category: "Announcements"
+    category_id: "DIC_kwDOSd9Xuc4C9Swo"
+    mapping: pathname
+    strict: 0
+    input_position: top
+    lang: zh-CN
+    reactions_enabled: 1
+
 paginate: 10
 
 kramdown:
@@ -47,7 +60,7 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: false
+      comments: true
       toc: true
       permalink: /posts/:title/
   - scope:
