@@ -3,6 +3,8 @@ title: "用 Git Patch 管理本地调试改动，避免误提交"
 description: "记录一种简单实用的本地改动管理方式：把调试专用修改保存成 patch，再用 Git hook 防止误提交到线上仓库。"
 date: 2026-06-05T07:24:23.406Z
 slug: "git-patch-local-debug-changes"
+aliases:
+  - "/posts/git-patch-local-debug-changes/"
 tags:
   - git
   - patch

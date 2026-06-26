@@ -4,6 +4,8 @@ description: "在 Windows 上安装 Ruby 与 Jekyll，创建本地博客并推�
 date: 2026-05-15T08:00:00Z
 lastmod: 2026-05-21T14:23:58.368Z
 slug: "windows-github-pages-jekyll-blog-tutorial"
+aliases:
+  - "/posts/windows-github-pages-jekyll-blog-tutorial/"
 tags:
   - windows
   - blog

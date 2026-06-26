@@ -92,7 +92,7 @@ body {
 .logo {
     flex-wrap: inherit;
     position: fixed;
-    left: calc((100vw - var(--main-width) - var(--gap) * 2) / 2 - 168px);
+    left: calc((100vw - var(--main-width) - var(--gap) * 2) / 2 - 175px);
 }
 
 @media screen and (max-width: 768px) {

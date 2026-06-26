@@ -1,7 +1,7 @@
 baseURL: "https://alex-xinlu.github.io/"
 locale: "en-US"
 defaultContentLanguage: "en"
-title: "Alex'Log"
+title: "Alexx'Log"
 theme: "PaperMod"
 timeZone: "Asia/Shanghai"
 hasCJKLanguage: true
@@ -17,7 +17,7 @@ outputs:
     - JSON
 
 permalinks:
-  posts: "/posts/:slug/"
+  posts: "/posts/:year-:month-:day-:slug/"
 
 taxonomies:
   tag: tags
@@ -56,7 +56,7 @@ markup:
 
 params:
   env: production
-  title: "Alex'Log"
+  title: "Alexx'Log"
   description: "Notes on AI engineering, technology, books, and life."
   keywords:
     - AI
@@ -64,7 +64,7 @@ params:
     - Technology
   author: "Xin Lu"
   label:
-    text: "Alex'Log"
+    text: "Alexx'Log"
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
@@ -80,13 +80,13 @@ params:
   comments: true
 
   assets:
-    favicon: "/assets/images/avatar.png"
-    favicon16x16: "/assets/images/avatar.png"
-    favicon32x32: "/assets/images/avatar.png"
-    apple_touch_icon: "/assets/images/avatar_large.png"
+    favicon: "/assets/images/favicon_astronaut.png"
+    favicon16x16: "/assets/images/favicon_astronaut.png"
+    favicon32x32: "/assets/images/favicon_astronaut.png"
+    apple_touch_icon: "/assets/images/favicon_astronaut_large.png"
 
   homeInfoParams:
-    Title: "👋 Welcome to Alex’Log"
+    Title: "👋 Welcome to Alexx’Log"
     Content: "Notes on AI engineering, technology, books, and life."
 
   socialIcons:

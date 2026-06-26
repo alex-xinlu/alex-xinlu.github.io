@@ -3,6 +3,8 @@ title: "Codex 切换到 WSL 后启动失败：Unable to locate the Codex CLI bin
 description: "记录一次 Windows 版 Codex 切换到 WSL 运行环境后无法启动的问题，以及通过修改 config.toml 恢复的解决方法。"
 date: 2026-06-15T03:36:11.414Z
 slug: "codex-wsl-unable-to-locate-cli-binary"
+aliases:
+  - "/posts/codex-wsl-unable-to-locate-cli-binary/"
 tags:
   - codex
   - wsl

@@ -4,6 +4,8 @@ description: "排查 Dify `/v1/chat-messages` 流式响应在 `message_end` 后�
 date: 2026-05-15T11:00:00Z
 lastmod: 2026-05-21T14:27:36.614Z
 slug: "dify-chat-messages-streaming-delay-after-message-end"
+aliases:
+  - "/posts/dify-chat-messages-streaming-delay-after-message-end/"
 tags:
   - dify
   - sse
