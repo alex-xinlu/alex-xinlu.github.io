@@ -4,6 +4,7 @@ description: "About Alex Loo, an AI algorithm engineer focused on LLM applicatio
 url: "/about/"
 summary: "About Alex Loo"
 comments: false
+layout: about
 ---
 
 Hi 👋，我是 Alex Loo，一名 AI 算法工程师。

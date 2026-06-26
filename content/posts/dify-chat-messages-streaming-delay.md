@@ -1,8 +1,9 @@
 ---
-title: "Dify `chat-messages` 流式延时排查：`message_end` 之后为什么还要再等几秒"
+title: "Dify chat-messages 流式延时排查：message_end 之后为什么还要再等几秒"
 description: "排查 Dify `/v1/chat-messages` 流式响应在 `message_end` 后仍延迟关闭的问题，定位 `auto_generate_name` 导致的额外耗时并给出修复方案。"
 date: 2026-05-15T11:00:00Z
 lastmod: 2026-05-21T14:27:36.614Z
+slug: "dify-chat-messages-streaming-delay-after-message-end"
 tags:
   - dify
   - sse

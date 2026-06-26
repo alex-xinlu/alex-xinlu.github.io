@@ -1,7 +1,7 @@
 baseURL: "https://alex-xinlu.github.io/"
 locale: "en-US"
 defaultContentLanguage: "en"
-title: "Xin Lu's Blog"
+title: "Alex'Log"
 theme: "PaperMod"
 timeZone: "Asia/Shanghai"
 hasCJKLanguage: true
@@ -26,7 +26,7 @@ menu:
   main:
     - identifier: posts
       name: Posts
-      url: /posts/
+      url: /
       weight: 10
     - identifier: archives
       name: Archive
@@ -56,25 +56,27 @@ markup:
 
 params:
   env: production
-  title: "Xin Lu's Blog"
+  title: "Alex'Log"
   description: "Notes on AI engineering, technology, books, and life."
   keywords:
     - AI
     - Engineering
     - Technology
   author: "Xin Lu"
-  DateFormat: "2006-01-02"
+  label:
+    text: "Alex'Log"
+  DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   ShowToc: true
-  TocOpen: true
+  TocOpen: false
   comments: true
 
   assets:
@@ -84,7 +86,7 @@ params:
     apple_touch_icon: "/assets/images/avatar_large.png"
 
   homeInfoParams:
-    Title: "Xin Lu's Blog"
+    Title: "👋 Welcome to Alex’Log"
     Content: "Notes on AI engineering, technology, books, and life."
 
   socialIcons:

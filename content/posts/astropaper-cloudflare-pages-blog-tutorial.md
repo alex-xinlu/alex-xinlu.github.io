@@ -2,6 +2,7 @@
 title: "使用 AstroPaper 和 Cloudflare Pages 搭建个人博客主页"
 description: "从 AstroPaper 主题创建 Astro 博客项目，推送到 GitHub，并通过 Cloudflare Pages 自动构建部署个人主页的完整流程。"
 date: 2026-05-24T09:23:24.373Z
+slug: "astropaper-cloudflare-pages-blog-tutorial"
 tags:
   - astro
   - astropaper

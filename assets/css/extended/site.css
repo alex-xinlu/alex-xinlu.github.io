@@ -1,0 +1,102 @@
+/* Local PaperMod presentation adjustments. */
+.home-info.first-entry {
+    min-height: unset;
+    margin: var(--gap) 0 calc(var(--gap) * 2);
+}
+
+.home-info .entry-header h1 {
+    font-size: 34px;
+}
+
+.home-info .entry-content {
+    margin: 14px 0;
+}
+
+.logo-switches::after {
+    content: "|";
+    display: inline-flex;
+    margin: auto 4px;
+}
+
+body {
+    font-size: 16px;
+}
+
+.page-header h1 {
+    font-size: 40px;
+}
+
+.post-title {
+    font-size: 36px;
+}
+
+.post-content h1 {
+    margin: 28px auto 20px;
+    font-size: 28px;
+}
+
+.post-content h2 {
+    margin: 24px auto 16px;
+    font-size: 24px;
+}
+
+.post-content h3 {
+    font-size: 18px;
+}
+
+.entry-header h2 {
+    font-size: 24px;
+}
+
+.post-entry .entry-cover {
+    aspect-ratio: 2 / 1;
+    overflow: hidden;
+}
+
+.post-entry .entry-cover img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-content table {
+    margin-bottom: 32px;
+}
+
+.post-content table th,
+.post-content table:not(.highlighttable, .highlight table, .gist .highlight) td {
+    padding: 6px 4px;
+    line-height: 1.25;
+}
+
+.toc {
+    font-size: 15px;
+}
+
+.toc details summary {
+    margin-inline-start: 20px;
+}
+
+.toc .inner {
+    margin: 0 20px;
+    padding: 10px 20px;
+}
+
+.post-single .post-description {
+    display: none;
+}
+
+.nav {
+    justify-content: flex-end;
+}
+
+.logo {
+    flex-wrap: inherit;
+    position: fixed;
+    left: calc((100vw - var(--main-width) - var(--gap) * 2) / 2 - 168px);
+}
+
+@media screen and (max-width: 768px) {
+    .home-info.first-entry {
+        min-height: 260px;
+    }
+}
