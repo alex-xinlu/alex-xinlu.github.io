@@ -56,6 +56,9 @@ markup:
 
 params:
   env: production
+  analytics:
+    google:
+      SiteVerificationTag: "yoMT6siGxhpzQ29NMKdK5VhYq4N6ZzMANo7Fw-eB9LU"
   title: "Alexx'Log"
   description: "Notes on AI engineering, technology, books, and life."
   keywords:
