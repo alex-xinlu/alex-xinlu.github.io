@@ -100,3 +100,15 @@ body {
         min-height: 260px;
     }
 }
+
+/* Use PaperMod's responsive header once the fixed desktop title would clip. */
+@media screen and (max-width: 1120px) {
+    .nav {
+        justify-content: space-between;
+    }
+
+    .logo {
+        position: static;
+        left: auto;
+    }
+}
