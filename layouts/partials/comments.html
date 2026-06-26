@@ -1,17 +1,40 @@
 {{- with site.Params.giscus }}
-<script src="https://giscus.app/client.js"
-        data-repo="{{ .repo }}"
-        data-repo-id="{{ index . "repo_id" }}"
-        data-category="{{ .category }}"
-        data-category-id="{{ index . "category_id" }}"
-        data-mapping="{{ .mapping | default "pathname" }}"
-        data-strict="{{ .strict | default "0" }}"
-        data-reactions-enabled="{{ index . "reactions_enabled" | default "1" }}"
-        data-emit-metadata="{{ index . "emit_metadata" | default "0" }}"
-        data-input-position="{{ index . "input_position" | default "top" }}"
-        data-theme="{{ .theme | default "preferred_color_scheme" }}"
-        data-lang="{{ .lang | default "zh-CN" }}"
-        crossorigin="anonymous"
-        async>
+<script>
+(() => {
+    const theme = () => document.body.classList.contains('dark') ? 'dark' : 'light';
+    const script = document.createElement('script');
+
+    script.src = 'https://giscus.app/client.js';
+    script.setAttribute('data-repo', '{{ .repo }}');
+    script.setAttribute('data-repo-id', '{{ index . "repo_id" }}');
+    script.setAttribute('data-category', '{{ .category }}');
+    script.setAttribute('data-category-id', '{{ index . "category_id" }}');
+    script.setAttribute('data-mapping', '{{ .mapping | default "pathname" }}');
+    script.setAttribute('data-strict', '{{ .strict | default "0" }}');
+    script.setAttribute('data-reactions-enabled', '{{ index . "reactions_enabled" | default "1" }}');
+    script.setAttribute('data-emit-metadata', '{{ index . "emit_metadata" | default "0" }}');
+    script.setAttribute('data-input-position', '{{ index . "input_position" | default "top" }}');
+    script.setAttribute('data-theme', theme());
+    script.setAttribute('data-lang', '{{ .lang | default "zh-CN" }}');
+    script.crossOrigin = 'anonymous';
+    script.async = true;
+
+    document.currentScript.before(script);
+
+    const syncTheme = () => {
+        const frame = document.querySelector('iframe.giscus-frame');
+        if (frame) {
+            frame.contentWindow.postMessage(
+                { giscus: { setConfig: { theme: theme() } } },
+                'https://giscus.app'
+            );
+        }
+    };
+
+    new MutationObserver(syncTheme).observe(document.body, {
+        attributes: true,
+        attributeFilter: ['class']
+    });
+})();
 </script>
 {{- end }}
