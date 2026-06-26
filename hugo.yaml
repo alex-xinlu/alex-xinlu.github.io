@@ -1,0 +1,125 @@
+baseURL: "https://alex-xinlu.github.io/"
+locale: "en-US"
+defaultContentLanguage: "en"
+title: "Xin Lu's Blog"
+theme: "PaperMod"
+timeZone: "Asia/Shanghai"
+hasCJKLanguage: true
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+permalinks:
+  posts: "/posts/:slug/"
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 50
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+    lineNumbersInTable: true
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  env: production
+  title: "Xin Lu's Blog"
+  description: "Notes on AI engineering, technology, books, and life."
+  keywords:
+    - AI
+    - Engineering
+    - Technology
+  author: "Xin Lu"
+  DateFormat: "2006-01-02"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  TocOpen: true
+  comments: true
+
+  assets:
+    favicon: "/assets/images/avatar.png"
+    favicon16x16: "/assets/images/avatar.png"
+    favicon32x32: "/assets/images/avatar.png"
+    apple_touch_icon: "/assets/images/avatar_large.png"
+
+  homeInfoParams:
+    Title: "Xin Lu's Blog"
+    Content: "Notes on AI engineering, technology, books, and life."
+
+  socialIcons:
+    - name: github
+      title: GitHub
+      url: "https://github.com/alex-xinlu"
+    - name: email
+      title: Email
+      url: "mailto:xinlu.nlp@gmail.com"
+    - name: rss
+      title: RSS
+      url: "/index.xml"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 1
+    keys:
+      - title
+      - permalink
+      - summary
+      - content
+
+  giscus:
+    repo: "alex-xinlu/alex-xinlu.github.io"
+    repo_id: "R_kgDOSd9XuQ"
+    category: "Announcements"
+    category_id: "DIC_kwDOSd9Xuc4C9Swo"
+    mapping: "pathname"
+    strict: "0"
+    reactions_enabled: "1"
+    emit_metadata: "0"
+    input_position: "top"
+    theme: "preferred_color_scheme"
+    lang: "en"

@@ -1,12 +1,13 @@
 ---
-layout: post
 title: "Dify `chat-messages` 流式延时排查：`message_end` 之后为什么还要再等几秒"
 date: 2026-05-15
-categories: [AI, Dify]
-tags: [Dify, SSE, Streaming, Troubleshooting]
-image:
-  path: /assets/images/2026-05-15/cover-dify.png
-  alt: Dify 流式接口延时排查文章封面
+slug: "dify-chat-messages-streaming-delay"
+categories: ["AI", "Dify"]
+tags: ["Dify", "SSE", "Streaming", "Troubleshooting"]
+cover:
+  image: "/assets/images/2026-05-15/cover-dify.png"
+  alt: "Dify 流式接口延时排查文章封面"
+comments: true
 ---
 
 最近在本地部署的 Dify 上排查了一个比较绕的流式响应问题。

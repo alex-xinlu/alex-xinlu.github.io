@@ -1,15 +1,17 @@
 ---
-layout: post
 title: "Windows 上用 GitHub Pages + Jekyll 搭建个人博客完整教程"
 date: 2026-05-15
-categories: [Jekyll, GitHub Pages]
-tags: [Windows, GitHub Pages, Jekyll, 博客]
-image:
-  path: /assets/images/2026-05-15/cover-github_pages.png
-  alt: GitHub Pages 与 Jekyll 搭建博客教程封面
+slug: "windows-github-pages-jekyll-blog"
+categories: ["Jekyll", "GitHub Pages"]
+tags: ["Windows", "GitHub Pages", "Jekyll", "博客"]
+cover:
+  image: "/assets/images/2026-05-15/cover-github_pages.png"
+  alt: "GitHub Pages 与 Jekyll 搭建博客教程封面"
+comments: true
 ---
 
 # 目录
+
 1. [前提条件](#前提条件)
 2. [安装 Ruby](#安装-ruby)
 3. [安装 Jekyll 与 Bundler](#安装-jekyll-与-bundler)
@@ -37,6 +39,7 @@ Jekyll 基于 Ruby 运行，因此第一步是安装 Ruby。
    - 选择 **Ruby+Devkit** 最新版本，例如 `Ruby 3.x.x (x64)`。
 2. 安装时勾选 **“Add Ruby executables to your PATH”**
 3. 安装完成后打开 PowerShell，输入：
+
 ```powershell
 ruby -v
 ```
@@ -107,6 +110,7 @@ bundle exec jekyll serve
 ---
 
 ## 推送博客到 GitHub
+
 在博客目录 `D:\MyBlog\myblog` 初始化 Git 并推送：
 
 ```powershell
@@ -137,7 +141,7 @@ git push -u origin main
 
 1. 在 `_posts` 文件夹下新建 Markdown 文件，命名规则：
 
-```
+```text
 YYYY-MM-DD-文章标题.md
 ```
 

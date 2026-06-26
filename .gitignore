@@ -1,6 +1,6 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+public/
+resources/
+.hugo_build.lock
+.jekyll-cache/
+vendor/
 .DS_Store
