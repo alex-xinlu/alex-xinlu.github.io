@@ -1,13 +1,13 @@
 ---
 title: "About"
-description: "About Alex Loo, an AI algorithm engineer focused on LLM applications, RAG, workflow, evaluation, and real-world system delivery."
+description: "About Xin Lu (Alex), an AI algorithm engineer focused on LLM applications, RAG, workflow, evaluation, and real-world system delivery."
 url: "/about/"
-summary: "About Alex Loo"
+summary: "About Xin Lu (Alex)"
 comments: false
 layout: about
 ---
 
-Hi 👋，我是 Alex Loo，一名 AI 算法工程师。
+Hi 👋，我是 Xin Lu (Alex)，一名 AI 算法工程师。
 
 过去几年里，我一直在 NLP 和 AI 应用一线做事，经历过内容理解、知识抽取、推荐与问答，也持续在做 RAG、Workflow、Prompt、评测优化和系统落地。
 
