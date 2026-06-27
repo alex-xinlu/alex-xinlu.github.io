@@ -99,6 +99,17 @@ body {
     .home-info.first-entry {
         min-height: 260px;
     }
+
+    .home-info .entry-header h1 {
+        font-size: 30px;
+        line-height: 1.25;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .home-info .entry-header h1 {
+        font-size: 28px;
+    }
 }
 
 /* Use PaperMod's responsive header once the fixed desktop title would clip. */
