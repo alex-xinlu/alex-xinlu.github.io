@@ -2,7 +2,7 @@
 title: "Harness Engineering 和 Loop Engineering：从引擎到自动驾驶"
 description: "一点关于 Harness Engineering 与 Loop Engineering 区别的随想：前者是可控性，后者是自主性。"
 date: 2026-07-01T00:00:00+08:00
-slug: "harness-loop"
+slug: "harness-engineering-loop-engineering"
 aliases:
   - "/posts/harness-loop/"
 tags:
