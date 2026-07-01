@@ -9,6 +9,8 @@ tags:
   - ai
   - agent
   - thoughts
+  - harness-engineering
+  - loop-engineering
 ---
 
 今天聊 Harness Engineering 和 Loop Engineering 的时候，我觉得汽车这个类比很顺。它刚好能帮我搞清楚两者的区别。
