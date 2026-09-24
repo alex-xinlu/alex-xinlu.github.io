@@ -44,6 +44,10 @@ menu:
       name: About
       url: /about/
       weight: 50
+    - identifier: alexx
+      name: Alexx
+      url: /me/
+      weight: 60
 
 markup:
   highlight:
